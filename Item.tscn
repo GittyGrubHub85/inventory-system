@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://12x8 pixel art empty potion model 0.png" type="Texture" id=1]
+[ext_resource path="res://Item.gd" type="Script" id=2]
+
+[node name="Item" type="Node2D"]
+z_index = 1
+script = ExtResource( 2 )
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_right = 8.0
+margin_bottom = 12.0
+mouse_filter = 2
+texture = ExtResource( 1 )
